@@ -35,12 +35,12 @@ body {
     justify-content: ;
     align-items: start;
     gap: 20px;
-    width: 450px;
-    height: 100vh;
+    width: 700px;
+    height: auto;
     padding: 20px;
     background-color: var(--White);
     border: 1px solid transparent;
-    border-radius: 8px;
+    border-radius: 24px;
 }
 
 /* img-title*/
@@ -86,4 +86,73 @@ body {
 
 .preparation-time h3{
     color: var(--Rose-800);
+}
+.preparation-time ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.preparation-time ul li{
+    display: flex;
+    
+}
+
+.preparation-time h4{
+    color: var(--Stone-900);
+}
+
+.ingredients, ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.ingredients h3 {
+    color: var(--Brown-800);
+}
+.ingredients ul {
+    padding: 20px;
+}
+
+.line {
+    background-color: var(--Brown-800);
+    border: 1px solid var(--Brown-800);
+    opacity: 10%;
+}
+
+.instructions, ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    gap: 20px;
+}
+.instructions h3 {
+    color: var(--Brown-800);
+}
+.instructions ol {
+    padding: 20px;
+}
+.instructions ol strong {
+    color: var(--Stone-900);
+}
+
+.nutrition h3 {
+    color: var(--Brown-800);
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    gap: 20px;
+}
+
+.nutri {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 20px;
 }
