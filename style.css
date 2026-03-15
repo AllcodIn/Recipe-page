@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 :root{
@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: var(--Stone-100);
 }
 
@@ -38,6 +38,7 @@ body {
     width: 700px;
     height: auto;
     padding: 20px;
+    color: var(--Stone-600);
     background-color: var(--White);
     border: 1px solid transparent;
     border-radius: 24px;
@@ -49,24 +50,27 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 20px;
-    font-family: "Outfit", sans-serif;
-    color: var(--Stone-900);
+    color: var(--Stone-600);
     width: 100%;
     height: auto;
-    /* border: 1px solid var(--Stone-600) */
+}
+.img-title h1{
+    font-family: 'Young Serif', serif;
+    color: var(--Stone-900);
 }
 .img-title p {
     font-size: 14px;
 }
 .image-container {
+    display: flex;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
 }
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 /* preparation-time*/
@@ -74,22 +78,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* gap: 20px; */
     padding-left: 50px;
     background-color: var(--Rose-50);
-    color: var(--Stone-900);
+    color: var(--Stone-600);
     width: 100%;
     height: 20vh;
-    /* border: 1px solid var(--Stone-600); */
     border-radius: 8px;
 }
 
-.preparation-time h3{
+.preparation-time h2{
     color: var(--Rose-800);
 }
 .preparation-time ul{
     display: flex;
-    flex-direction: column;
+     flex-direction: column; 
     justify-content: space-evenly;
     gap: 20px;
 }
@@ -108,7 +110,8 @@ body {
     justify-content: space-evenly;
     gap: 20px;
 }
-.ingredients h3 {
+.ingredients h2 {
+    font-family: 'Young Serif', serif;
     color: var(--Brown-800);
 }
 .ingredients ul {
@@ -128,7 +131,8 @@ body {
     text-align: start;
     gap: 20px;
 }
-.instructions h3 {
+.instructions h2 {
+    font-family: 'Young Serif', serif;
     color: var(--Brown-800);
 }
 .instructions ol {
@@ -138,7 +142,8 @@ body {
     color: var(--Stone-900);
 }
 
-.nutrition h3 {
+.nutrition h2 {
+    font-family: 'Young Serif', serif;
     color: var(--Brown-800);
 }
 
@@ -155,4 +160,9 @@ body {
     justify-content: space-around;
     gap: 50px;
     padding: 20px;
+}
+
+.quantity {
+    color: var(--Brown-800);
+    font-weight: 700;
 }
