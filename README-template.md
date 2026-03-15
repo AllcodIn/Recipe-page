@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://your-solution-url.com)
 - Live Site URL: [Recipe-page](https://allcodin.github.io/Recipe-page/)
 
 ## My process
@@ -38,4 +38,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/AllcodIn)
+- Frontend Mentor - [@AllcodIn](https://www.frontendmentor.io/profile/AllcodIn)
